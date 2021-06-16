@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-16T15:09:00 IST" name="Suite" finished-at="2021-06-16T15:10:44 IST" duration-ms="104268">
+    <groups>
+    </groups>
+    <test started-at="2021-06-16T15:09:00 IST" name="Test" finished-at="2021-06-16T15:10:44 IST" duration-ms="104268">
+      <class name="Assignment1.Goibibo.GoibiboE2E">
+        <test-method signature="ticketBooking(java.lang.String,java.lang.String)[pri:0, instance:Assignment1.Goibibo.GoibiboE2E@6a74d228]" started-at="2021-06-16T15:09:00 IST" name="ticketBooking" data-provider="TestData" finished-at="2021-06-16T15:09:58 IST" duration-ms="57510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chandigarh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method signature="ticketBooking(java.lang.String,java.lang.String)[pri:0, instance:Assignment1.Goibibo.GoibiboE2E@6a74d228]" started-at="2021-06-16T15:09:58 IST" name="ticketBooking" data-provider="TestData" finished-at="2021-06-16T15:10:43 IST" duration-ms="45683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhubaneswar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ticketBooking -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment1.Goibibo.GoibiboE2E@6a74d228]" started-at="2021-06-16T15:10:43 IST" name="closeBrowser" finished-at="2021-06-16T15:10:44 IST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Assignment1.Goibibo.GoibiboE2E -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
